@@ -8,3 +8,6 @@
 如果构建成功调用docker的目录下脚本来生成docker image并push到私有docker仓库上。
 
 通过chef，通知最终的部署节点，下载最新版image,删除正在运行的容器，以新image来启动容器，完成项目的更新。整个过程会在短短几分钟就能看到结果。
+
+#有容云参考资料：【有容云】PPT | 容器与CICD的遇见
+https://www.cnblogs.com/youruncloud/p/6214886.html
